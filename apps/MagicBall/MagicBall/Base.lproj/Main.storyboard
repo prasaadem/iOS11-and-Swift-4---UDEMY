@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13122.17" systemVersion="16G29" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13104.14"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="HelveticaNeue.ttc">
+            <string>HelveticaNeue</string>
+        </array>
+        <array key="HelveticaNeueLights.ttc">
+            <string>HelveticaNeue-Thin</string>
+        </array>
+    </customFonts>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="MagicBall" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Ask Me Anything" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="sQw-pS-1u2">
+                                <rect key="frame" x="13" y="20" width="349" height="60"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="60" id="mUJ-76-IQq"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="HelveticaNeue-Thin" family="Helvetica Neue" pointSize="50"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="ball1" translatesAutoresizingMaskIntoConstraints="NO" id="A9g-3k-5Uj">
+                                <rect key="frame" x="13" y="127" width="349" height="412"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="v2F-QJ-HXB">
+                                <rect key="frame" x="147.5" y="609" width="80" height="50"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="80" id="A6J-ud-RhR"/>
+                                    <constraint firstAttribute="height" constant="50" id="VBK-mK-Hgu"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="30"/>
+                                <state key="normal" title="Ask">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="askButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="x2Q-XC-H0F"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" red="0.62091152120000004" green="0.47360854879999997" blue="0.49908009079999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                        <constraints>
+                            <constraint firstAttribute="trailing" secondItem="A9g-3k-5Uj" secondAttribute="trailing" constant="13" id="AIv-kb-fSO"/>
+                            <constraint firstItem="A9g-3k-5Uj" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="Ej3-yr-ZfR"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="v2F-QJ-HXB" secondAttribute="bottom" constant="8" id="IXw-zA-yYh"/>
+                            <constraint firstItem="v2F-QJ-HXB" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="R6i-gr-E0e"/>
+                            <constraint firstItem="A9g-3k-5Uj" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="dDE-PK-AeY"/>
+                            <constraint firstItem="A9g-3k-5Uj" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="13" id="fwo-dW-Y2u"/>
+                            <constraint firstItem="sQw-pS-1u2" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="13" id="lSE-v9-slG"/>
+                            <constraint firstAttribute="trailing" secondItem="sQw-pS-1u2" secondAttribute="trailing" constant="13" id="mEe-7i-gDL"/>
+                            <constraint firstItem="sQw-pS-1u2" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" id="o7x-9j-8Co"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="answerImageView" destination="A9g-3k-5Uj" id="tOv-ec-R0r"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="136.80000000000001" y="138.98050974512745"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="ball1" width="460" height="412"/>
+    </resources>
+</document>
