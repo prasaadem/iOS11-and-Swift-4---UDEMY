@@ -60,4 +60,25 @@ func getMilk(){
 
 getMilk()
 
+func getMilk(howManyCartonsOfMilk: Int){
+    print("Got to the shops!")
+    print("Buy \(howManyCartonsOfMilk) cartons of milk!")
+    let priceToPay = 2 * howManyCartonsOfMilk
+    print("Pay $\(priceToPay)")
+    print("come home")
+}
 
+getMilk(howManyCartonsOfMilk: 4)
+
+func getMilk(howManyCartonsOfMilk: Int,howMuchMoneyRobotWasGiven: Int) -> Int{
+    print("Got to the shops!")
+    print("Buy \(howManyCartonsOfMilk) cartons of milk!")
+    let priceToPay = 2 * howManyCartonsOfMilk
+    let change = howMuchMoneyRobotWasGiven - priceToPay
+    print("Pay $\(priceToPay)")
+    print("come home")
+    return change
+}
+
+var amountOfChange = getMilk(howManyCartonsOfMilk: 4,howMuchMoneyRobotWasGiven: 10)
+print("The change returned is: \(amountOfChange)")
