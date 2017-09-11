@@ -7,73 +7,124 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		C8B34D481F65E10E00816D48 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8B34D471F65E10E00816D48 /* AppDelegate.swift */; };
-		C8B34D4A1F65E10E00816D48 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8B34D491F65E10E00816D48 /* ViewController.swift */; };
-		C8B34D4D1F65E10E00816D48 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C8B34D4B1F65E10E00816D48 /* Main.storyboard */; };
-		C8B34D4F1F65E10E00816D48 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C8B34D4E1F65E10E00816D48 /* Assets.xcassets */; };
-		C8B34D521F65E10E00816D48 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C8B34D501F65E10E00816D48 /* LaunchScreen.storyboard */; };
+		76D261F773618A760BA5E4EC /* Pods_Safe_Drive.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FCA12AE05B17603C4817622B /* Pods_Safe_Drive.framework */; };
+		C850200C1F65EFF00065A467 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C850200B1F65EFF00065A467 /* AppDelegate.swift */; };
+		C850200E1F65EFF00065A467 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C850200D1F65EFF00065A467 /* ViewController.swift */; };
+		C85020111F65EFF00065A467 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C850200F1F65EFF00065A467 /* Main.storyboard */; };
+		C85020131F65EFF00065A467 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C85020121F65EFF00065A467 /* Assets.xcassets */; };
+		C85020161F65EFF00065A467 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C85020141F65EFF00065A467 /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		C8B34D441F65E10E00816D48 /* Safe Drive.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Safe Drive.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		C8B34D471F65E10E00816D48 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		C8B34D491F65E10E00816D48 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		C8B34D4C1F65E10E00816D48 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		C8B34D4E1F65E10E00816D48 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		C8B34D511F65E10E00816D48 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		C8B34D531F65E10E00816D48 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C85020081F65EFF00065A467 /* Safe Drive.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Safe Drive.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C850200B1F65EFF00065A467 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		C850200D1F65EFF00065A467 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		C85020101F65EFF00065A467 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C85020121F65EFF00065A467 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C85020151F65EFF00065A467 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C85020171F65EFF00065A467 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EAA6137939C2A603BF3DB336 /* Pods-Safe Drive.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Safe Drive.release.xcconfig"; path = "Pods/Target Support Files/Pods-Safe Drive/Pods-Safe Drive.release.xcconfig"; sourceTree = "<group>"; };
+		F8B416C4DB8AF9F6F8FBF092 /* Pods-Safe Drive.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Safe Drive.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Safe Drive/Pods-Safe Drive.debug.xcconfig"; sourceTree = "<group>"; };
+		FCA12AE05B17603C4817622B /* Pods_Safe_Drive.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Safe_Drive.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		C8B34D411F65E10E00816D48 /* Frameworks */ = {
+		C85020051F65EFF00065A467 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				76D261F773618A760BA5E4EC /* Pods_Safe_Drive.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		C8B34D3B1F65E10D00816D48 = {
+		7D912DDEAD993C3A5CC2F217 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				C8B34D461F65E10E00816D48 /* Safe Drive */,
-				C8B34D451F65E10E00816D48 /* Products */,
+				FCA12AE05B17603C4817622B /* Pods_Safe_Drive.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		9818AF54DF03E2E35DB7D32D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F8B416C4DB8AF9F6F8FBF092 /* Pods-Safe Drive.debug.xcconfig */,
+				EAA6137939C2A603BF3DB336 /* Pods-Safe Drive.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		C8501FFF1F65EFF00065A467 = {
+			isa = PBXGroup;
+			children = (
+				C850200A1F65EFF00065A467 /* Safe Drive */,
+				C85020091F65EFF00065A467 /* Products */,
+				9818AF54DF03E2E35DB7D32D /* Pods */,
+				7D912DDEAD993C3A5CC2F217 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
-		C8B34D451F65E10E00816D48 /* Products */ = {
+		C85020091F65EFF00065A467 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				C8B34D441F65E10E00816D48 /* Safe Drive.app */,
+				C85020081F65EFF00065A467 /* Safe Drive.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		C8B34D461F65E10E00816D48 /* Safe Drive */ = {
+		C850200A1F65EFF00065A467 /* Safe Drive */ = {
 			isa = PBXGroup;
 			children = (
-				C8B34D471F65E10E00816D48 /* AppDelegate.swift */,
-				C8B34D491F65E10E00816D48 /* ViewController.swift */,
-				C8B34D4B1F65E10E00816D48 /* Main.storyboard */,
-				C8B34D4E1F65E10E00816D48 /* Assets.xcassets */,
-				C8B34D501F65E10E00816D48 /* LaunchScreen.storyboard */,
-				C8B34D531F65E10E00816D48 /* Info.plist */,
+				C850201F1F65F0F50065A467 /* controller */,
+				C850201E1F65F0F00065A467 /* modal */,
+				C850201D1F65F0EA0065A467 /* view */,
+				C85020121F65EFF00065A467 /* Assets.xcassets */,
+				C85020141F65EFF00065A467 /* LaunchScreen.storyboard */,
+				C85020171F65EFF00065A467 /* Info.plist */,
 			);
 			path = "Safe Drive";
+			sourceTree = "<group>";
+		};
+		C850201D1F65F0EA0065A467 /* view */ = {
+			isa = PBXGroup;
+			children = (
+				C850200F1F65EFF00065A467 /* Main.storyboard */,
+			);
+			name = view;
+			sourceTree = "<group>";
+		};
+		C850201E1F65F0F00065A467 /* modal */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = modal;
+			sourceTree = "<group>";
+		};
+		C850201F1F65F0F50065A467 /* controller */ = {
+			isa = PBXGroup;
+			children = (
+				C850200D1F65EFF00065A467 /* ViewController.swift */,
+				C850200B1F65EFF00065A467 /* AppDelegate.swift */,
+			);
+			name = controller;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		C8B34D431F65E10E00816D48 /* Safe Drive */ = {
+		C85020071F65EFF00065A467 /* Safe Drive */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = C8B34D561F65E10E00816D48 /* Build configuration list for PBXNativeTarget "Safe Drive" */;
+			buildConfigurationList = C850201A1F65EFF00065A467 /* Build configuration list for PBXNativeTarget "Safe Drive" */;
 			buildPhases = (
-				C8B34D401F65E10E00816D48 /* Sources */,
-				C8B34D411F65E10E00816D48 /* Frameworks */,
-				C8B34D421F65E10E00816D48 /* Resources */,
+				0BBC7E61599B89513911489D /* [CP] Check Pods Manifest.lock */,
+				C85020041F65EFF00065A467 /* Sources */,
+				C85020051F65EFF00065A467 /* Frameworks */,
+				C85020061F65EFF00065A467 /* Resources */,
+				E53BB21C654FF20CC971A6E6 /* [CP] Embed Pods Frameworks */,
+				863870E58F94F7DF68266C56 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -81,27 +132,27 @@
 			);
 			name = "Safe Drive";
 			productName = "Safe Drive";
-			productReference = C8B34D441F65E10E00816D48 /* Safe Drive.app */;
+			productReference = C85020081F65EFF00065A467 /* Safe Drive.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		C8B34D3C1F65E10D00816D48 /* Project object */ = {
+		C85020001F65EFF00065A467 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0830;
-				LastUpgradeCheck = 0830;
+				LastUpgradeCheck = 0900;
 				ORGANIZATIONNAME = "Aditya Emani";
 				TargetAttributes = {
-					C8B34D431F65E10E00816D48 = {
+					C85020071F65EFF00065A467 = {
 						CreatedOnToolsVersion = 8.3.3;
 						DevelopmentTeam = D27V92ZH34;
 						ProvisioningStyle = Automatic;
 					};
 				};
 			};
-			buildConfigurationList = C8B34D3F1F65E10D00816D48 /* Build configuration list for PBXProject "Safe Drive" */;
+			buildConfigurationList = C85020031F65EFF00065A467 /* Build configuration list for PBXProject "Safe Drive" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -109,54 +160,123 @@
 				en,
 				Base,
 			);
-			mainGroup = C8B34D3B1F65E10D00816D48;
-			productRefGroup = C8B34D451F65E10E00816D48 /* Products */;
+			mainGroup = C8501FFF1F65EFF00065A467;
+			productRefGroup = C85020091F65EFF00065A467 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				C8B34D431F65E10E00816D48 /* Safe Drive */,
+				C85020071F65EFF00065A467 /* Safe Drive */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		C8B34D421F65E10E00816D48 /* Resources */ = {
+		C85020061F65EFF00065A467 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C8B34D521F65E10E00816D48 /* LaunchScreen.storyboard in Resources */,
-				C8B34D4F1F65E10E00816D48 /* Assets.xcassets in Resources */,
-				C8B34D4D1F65E10E00816D48 /* Main.storyboard in Resources */,
+				C85020161F65EFF00065A467 /* LaunchScreen.storyboard in Resources */,
+				C85020131F65EFF00065A467 /* Assets.xcassets in Resources */,
+				C85020111F65EFF00065A467 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		0BBC7E61599B89513911489D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Safe Drive-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		863870E58F94F7DF68266C56 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Safe Drive/Pods-Safe Drive-resources.sh",
+				"${PODS_ROOT}/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Resources/GoogleMaps.bundle",
+				"${PODS_ROOT}/GooglePlacePicker/Frameworks/GooglePlacePicker.framework/Resources/GooglePlacePicker.bundle",
+				"${PODS_ROOT}/GooglePlaces/Frameworks/GooglePlaces.framework/Resources/GooglePlaces.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Safe Drive/Pods-Safe Drive-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E53BB21C654FF20CC971A6E6 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Safe Drive/Pods-Safe Drive-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleMapsDirections/GoogleMapsDirections.framework",
+				"${BUILT_PRODUCTS_DIR}/ObjectMapper/ObjectMapper.framework",
+				"${BUILT_PRODUCTS_DIR}/Pulsator/Pulsator.framework",
+				"${BUILT_PRODUCTS_DIR}/SVProgressHUD/SVProgressHUD.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftyJSON/SwiftyJSON.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleMapsDirections.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ObjectMapper.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Pulsator.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SVProgressHUD.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyJSON.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Safe Drive/Pods-Safe Drive-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
-		C8B34D401F65E10E00816D48 /* Sources */ = {
+		C85020041F65EFF00065A467 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C8B34D4A1F65E10E00816D48 /* ViewController.swift in Sources */,
-				C8B34D481F65E10E00816D48 /* AppDelegate.swift in Sources */,
+				C850200E1F65EFF00065A467 /* ViewController.swift in Sources */,
+				C850200C1F65EFF00065A467 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		C8B34D4B1F65E10E00816D48 /* Main.storyboard */ = {
+		C850200F1F65EFF00065A467 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				C8B34D4C1F65E10E00816D48 /* Base */,
+				C85020101F65EFF00065A467 /* Base */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
-		C8B34D501F65E10E00816D48 /* LaunchScreen.storyboard */ = {
+		C85020141F65EFF00065A467 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				C8B34D511F65E10E00816D48 /* Base */,
+				C85020151F65EFF00065A467 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -164,7 +284,7 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		C8B34D541F65E10E00816D48 /* Debug */ = {
+		C85020181F65EFF00065A467 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -174,7 +294,9 @@
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
@@ -182,7 +304,11 @@
 				CLANG_WARN_ENUM_CONVERSION = YES;
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
@@ -205,7 +331,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -215,7 +341,7 @@
 			};
 			name = Debug;
 		};
-		C8B34D551F65E10E00816D48 /* Release */ = {
+		C85020191F65EFF00065A467 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -225,7 +351,9 @@
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
@@ -233,7 +361,11 @@
 				CLANG_WARN_ENUM_CONVERSION = YES;
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
@@ -250,7 +382,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
@@ -259,12 +391,14 @@
 			};
 			name = Release;
 		};
-		C8B34D571F65E10E00816D48 /* Debug */ = {
+		C850201B1F65EFF00065A467 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F8B416C4DB8AF9F6F8FBF092 /* Pods-Safe Drive.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = D27V92ZH34;
 				INFOPLIST_FILE = "Safe Drive/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.aditya.Safe-Drive";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -272,12 +406,14 @@
 			};
 			name = Debug;
 		};
-		C8B34D581F65E10E00816D48 /* Release */ = {
+		C850201C1F65EFF00065A467 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = EAA6137939C2A603BF3DB336 /* Pods-Safe Drive.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = D27V92ZH34;
 				INFOPLIST_FILE = "Safe Drive/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.aditya.Safe-Drive";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -288,24 +424,25 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		C8B34D3F1F65E10D00816D48 /* Build configuration list for PBXProject "Safe Drive" */ = {
+		C85020031F65EFF00065A467 /* Build configuration list for PBXProject "Safe Drive" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				C8B34D541F65E10E00816D48 /* Debug */,
-				C8B34D551F65E10E00816D48 /* Release */,
+				C85020181F65EFF00065A467 /* Debug */,
+				C85020191F65EFF00065A467 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		C8B34D561F65E10E00816D48 /* Build configuration list for PBXNativeTarget "Safe Drive" */ = {
+		C850201A1F65EFF00065A467 /* Build configuration list for PBXNativeTarget "Safe Drive" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				C8B34D571F65E10E00816D48 /* Debug */,
-				C8B34D581F65E10E00816D48 /* Release */,
+				C850201B1F65EFF00065A467 /* Debug */,
+				C850201C1F65EFF00065A467 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = C8B34D3C1F65E10D00816D48 /* Project object */;
+	rootObject = C85020001F65EFF00065A467 /* Project object */;
 }
